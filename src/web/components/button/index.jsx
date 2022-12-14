@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import './index.less';
+import './index.css';
 import 'weui';
 
 export default function Button({

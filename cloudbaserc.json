@@ -4,8 +4,14 @@
     "name": "mydemo",
     "configRoot": "./src/configs",
     "platformRoot": {
-      "web": "./src/web",
-      "mp": "./src/mp"
+      "web": {
+        "entry": "./src/web",
+        "components": "./src/web/components",
+        "actions": "./src/web/actions"
+      },
+      "mp": {
+        "entry": "./src/mp"
+      }
     }
   }
 }
